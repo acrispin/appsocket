@@ -1,0 +1,12 @@
+
+https://carlosazaustre.es/blog/websockets-como-utilizar-socket-io-en-tu-aplicacion-web/
+
+
+hacer test de carga
+$ ab -c 100 -n 100 http://127.0.0.1:8124/
+
+Encontrar proceso por puerto y terminarlo: kill proccess [kill -9 PID]
+$ ps ax|grep port
+$ netstat -tulpn
+$ netstat -tulpn|grep port
+$ kill -9 6103
