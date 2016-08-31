@@ -1,3 +1,10 @@
+var arguments = process.argv;
+var cmdLineArg = process.argv[2];
+ 
+if (typeof cmdLineArg === 'undefined')
+    console.log("no cmdline argument passed!");
+else
+    console.log("cmdline argument passed :: " + cmdLineArg);
 
 var express = require('express');
 var app = express();
